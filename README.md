@@ -1,7 +1,7 @@
 # CK-project
 
 
-### Two small programmes to scrape cryptocurency related web sites
+### A small programmes to scrape cryptocurency related web sites
 
 This repository contains two small codes that will help you to start with the scraping methods.
 
@@ -17,7 +17,7 @@ This repository contains two small codes that will help you to start with the sc
    
 3. Once it's done, and you did your choise, the code will scrape the pages with the information, then it will be cleaned with pandas library and stored in a  table like this one :
 
-    <img src="exemple_result.png" alt="MarineGEO circle logo"/>
+    <img src="exemple_result.png" alt="exemple of the extracted data"/>
 
     *What does it mean ?*
 
@@ -29,6 +29,9 @@ This repository contains two small codes that will help you to start with the sc
     - Volume: *Volume of transactions on the given day*
     - Market Cap: *Market capitalization in USD*
  
+### Data base UML Diagram
+
+<img src="Diagramme_UML.png" alt="uml diagram"/>
 
 4. You also have a query to store the data in a database, in our case we are using postgres.
 ---
@@ -56,15 +59,4 @@ This is a first step project, you can add proxies to deal with web site blocks i
 
 *The code is in a jupyter notebook to let you see the steps, and analyse the code if you need*
 
-
-
-
-# The Project 2 - Scraping Cryptocurency news : 
-
-
-
-
-
-
-
-
+Good luck !
